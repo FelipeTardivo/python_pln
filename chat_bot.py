@@ -1,4 +1,4 @@
-pip install Levenshtein
+pip install python-Levenshtein==0.12.0
 import Levenshtein
 
 def carregar_perguntas(arquivo):
