@@ -1,4 +1,5 @@
-import levenshtein
+pip install Levenshtein
+import Levenshtein
 
 def carregar_perguntas(arquivo):
   perguntas_respostas = {}
