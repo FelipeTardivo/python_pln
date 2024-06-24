@@ -1,4 +1,4 @@
-import Levenshtein
+import levenshtein
 
 def carregar_perguntas(arquivo):
   perguntas_respostas = {}
