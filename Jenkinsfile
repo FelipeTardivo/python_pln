@@ -33,7 +33,9 @@ pipeline {
 
         stage('Execução do Chatbot') {
             steps {
-                sh 'python3 chat_bot.py'
+                script {
+                    def pergunta = params.DIGITE_A_PERGUNTA
+                    sh "python3 chat_bot.py '${pergunta}'"
             }
         }
     }
