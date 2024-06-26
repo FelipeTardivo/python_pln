@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    parameters {
+        string(name: 'DIRETORIO', description:'Caminho do Diretorio a definir')
+    }
+
     stages {
         stage('Preparação do Ambiente') {
             steps {
