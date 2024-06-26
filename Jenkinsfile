@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     parameters {
-        string(name: 'DIRETORIO', description:'Caminho do Diretorio a definir')
+        string(name: 'PERGUNTA', description:'Digite a Perguta')
     }
 
     stages {
